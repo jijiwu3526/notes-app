@@ -1,0 +1,19 @@
+{
+  "packages": [
+    "nodejs@20",
+    "mongodb-community@latest"
+  ],
+  "env": {
+    "NODE_ENV": "development",
+    "PORT": "3000",
+    "DATABASE_URL": "mongodb://localhost:27017/notes",
+    "JWT_SECRET": "devbox-secret-key-change-in-production"
+  },
+  "shell": {
+    "init_hook": [
+      "echo 'Dev environment ready. Run the following commands:'",
+      "echo '  cd backend && npm install && npm run dev'",
+      "echo '  cd frontend && npm install && npm run dev'"
+    ]
+  }
+}

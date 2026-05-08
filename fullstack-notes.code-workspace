@@ -1,0 +1,39 @@
+{
+  "folders": [
+    {
+      "name": "Full-Stack Notes App",
+      "path": "/Users/Apple/notes-app"
+    },
+    {
+      "name": "Backend",
+      "path": "/Users/Apple/notes-app/backend"
+    },
+    {
+      "name": "Frontend",
+      "path": "/Users/Apple/notes-app/frontend"
+    }
+  ],
+  "settings": {
+    "typescript.preferences.includePackageJsonAutoImports": "auto",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "bradlc.vscode-tailwindcss",
+      "christian-kohler.npm-intellisense",
+      "ms-vscode.vscode-typescript-next",
+      "Vue.volar",
+      "esbenp.prettier-vscode",
+      "ms-vscode.vscode-json"
+    ]
+  }
+}

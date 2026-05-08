@@ -1,0 +1,29 @@
+{
+  "name": "notes-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for full-stack notes application",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "keywords": ["notes", "frontend", "vue", "typescript"],
+  "author": "User",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4",
+    "pinia": "^2.1.6",
+    "@types/node": "^20.6.0",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.1",
+    "typescript": "^5.2.2",
+    "vue-tsc": "^1.8.8",
+    "vite": "^4.4.9",
+    "sass": "^1.66.1"
+  }
+}

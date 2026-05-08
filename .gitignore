@@ -1,0 +1,6 @@
+# 根目录 gitignore
+node_modules/
+dist/
+.env
+*.log
+.DS_Store
