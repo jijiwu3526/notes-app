@@ -9,7 +9,7 @@ RUN npm ci
 COPY . .
 
 ARG VITE_API_BASE_URL=/api
-RUN npm run build
+RUN npx vite build
 
 # Production stage
 FROM nginx:alpine
