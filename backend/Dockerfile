@@ -1,4 +1,4 @@
-FROM registry.cn-shanghai.aliyuncs.com/dockerhub/node:18-alpine AS builder
+FROM node:18-alpine AS builder
 
 WORKDIR /app
 
@@ -8,7 +8,7 @@ RUN npm ci
 COPY . .
 RUN npm run build
 
-FROM registry.cn-shanghai.aliyuncs.com/dockerhub/node:18-alpine
+FROM node:18-alpine
 
 WORKDIR /app
 
